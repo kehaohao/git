@@ -30,6 +30,18 @@ sics
 
 
 
+    5.
+
+      let git knows about this file
+
+      git add hello.c
+
+   6.
+
+      create the first version
+
+      git commit -a -m "my first version"
+
 
 
 
