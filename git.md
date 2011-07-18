@@ -61,6 +61,11 @@ sics
 2 . set hidden 保存
 3.set number
 
+4.set nonumber ;
+
+5.vim  文件.vimrc
+
+
 
 
 
