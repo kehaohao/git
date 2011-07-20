@@ -66,6 +66,14 @@ sics
 5.vim  文件.vimrc
 
 
+##git 
+
+1.git diff ;查看修改
+
+2.git reset --hard HEAD; 重置到上一个版本的状态
+
+3.还要注意.gitconfig    
+
 
 
 
