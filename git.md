@@ -74,7 +74,16 @@ sics
 
 3.还要注意.gitconfig    
 
+4.:sh 不关闭vim ，退出操作
 
+5.Ctrl +d 或 exit   回到vim
+
+6.在:sh 前加:w 将vim中的内容保存到硬盘
+
+7.echo $? 测试系统返回值
+
+8.gcc -S +文件 ： 生成汇编
+ 
 
 
 
