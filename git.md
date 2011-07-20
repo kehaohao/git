@@ -44,6 +44,8 @@
 
 
 
+
+
 #vim 文件内容处理
    
 	 1.shift + v
@@ -75,7 +77,13 @@
 
 	4. set nonumber ;
 
-	5.vim  文件.vimrc
+	5.vim  文件.vimrc  修改排列次序
+
+#在vim中
+
+若非正常关闭或文件正在打开状态中，则此文件的目录下会多出隐藏文件
+（如：note.md.swp）即以.swp格式的隐藏文件
+关闭后若还有，可rm -rf 强制删除；
 
 
 ##git 
@@ -129,7 +137,31 @@
 
 	1.sudo apt-get install + 软件名；
 
-	2.wget -r + 文件名；
+	2.wget -r + 文件包；
+        
+        3.wget + 文件名 ；
+
+##tips
+
+	1.clear screen :ctrl + l;
+
+	2.copy and paste : select -> middle button ;
+
+##diff 与 patch 
+
+	1.cp h.c h1.c ; 备份h.c
+
+	2.diff -u h.c h1.c >h1.diff ;得出h.c与h1.c的不同
+
+	3.vim h.diff  
+
+打补丁：
+
+	1.patch h1.c < h1.diff;
+
+	2.patch -R h.c < h.diff ；将h.c 中的diff删除；
+
+
         
 
   
