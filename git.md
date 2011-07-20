@@ -54,7 +54,10 @@
 	 3.p 粘贴
 
 	 4.shift + >
+
 	 5.shift + <
+
+         6.u  返回上一次
 
  ##vim处理多个文件
 	 1.ls;
@@ -81,6 +84,8 @@
 
 	2.git reset --hard HEAD; 重置到上一个版本的状态
 
+        2.2 git reset --hard HEAD^;  在生成文本后回到上一个版本的状态
+
 	3.还要注意.gitconfig    
 
 	4.:sh 不关闭vim ，退出操作
@@ -92,6 +97,8 @@
 	7.echo $? 测试系统返回值
 
 	8.gcc -S +文件 ： 生成汇编
+
+        9.git commit -a ; 留言信息
 
  
 # Install 下载
@@ -106,5 +113,23 @@
 
 	查看用 tig 看加入的内容 d
 
+#rm  cp 与 mv   如何将h.c 中的内容拷贝到h1.c中
+
+	1. rm .* ；删除垃圾文件
+
+	2.cp  + 文件1/目录  + 文件2/目录；
+
+	3. mv + 文件1/目录  + 文件2/目录； 
+
+       
+        4.cat h.c >> h1.c  将h.c 中的内容拷贝到h1.c中；
 
 
+#软件下载和文件下载 
+
+	1.sudo apt-get install + 软件名；
+
+	2.wget -r + 文件名；
+        
+
+  
