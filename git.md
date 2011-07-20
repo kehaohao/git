@@ -68,25 +68,34 @@ sics
 
 ##git 
 
-1.git diff ;查看修改
+	1.git diff ;查看修改
 
-2.git reset --hard HEAD; 重置到上一个版本的状态
+	2.git reset --hard HEAD; 重置到上一个版本的状态
 
-3.还要注意.gitconfig    
+	3.还要注意.gitconfig    
 
-4.:sh 不关闭vim ，退出操作
+	4.:sh 不关闭vim ，退出操作
 
-5.Ctrl +d 或 exit   回到vim
+	5.Ctrl +d 或 exit   回到vim
 
-6.在:sh 前加:w 将vim中的内容保存到硬盘
+	6.在:sh 前加:w 将vim中的内容保存到硬盘
 
-7.echo $? 测试系统返回值
+	7.echo $? 测试系统返回值
 
-8.gcc -S +文件 ： 生成汇编
+	8.gcc -S +文件 ： 生成汇编
+
  
+# Install 下载
 
+1.sudo apt-get install git-core 
 
+2.sudo apt-get install tig
 
+3.git clone + 网页 only-read 地址 
+
+4.git pull 更新网页内容
+
+查看用 tig 看加入的内容 d
 
 
 
