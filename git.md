@@ -1,69 +1,78 @@
-sics
+  #Set up git
 
-   1.
+	   1.
 
-      first create a dir
+	      first create a dir
 
-      mkdir ggg
+	      mkdir ggg
 
-   2.
+	   2.
 
-      now you MUST cd to this dir
+	      now you MUST cd to this dir
 
-      cd ggg
+	      cd ggg
 
-   3.
+	   3.
 
-      initializing this git dir
+	      initializing this git dir
 
-      git init
+	      git init
 
-      now you can see a .git in this dir
+	      now you can see a .git in this dir
 
-      ls -a
+	      ls -a
 
-   4.
+	   4.
 
-      now create a file
+	      now create a file
 
-      vim hello.c
+	      vim hello.c
 
 
 
-    5.
+	    5.
 
-      let git knows about this file
+	      let git knows about this file
 
-      git add hello.c
+	      git add hello.c
 
+	    6. git commit -m '+留言信息'
+	    
+	    7.git remote add origin git@github.com:sept/sept-note.git 
+
+	    8.git push -u origin master
+
+
+
+#vim 文件内容处理
    
-1.shift + v
+	 1.shift + v
 
 
- 2.d
+	 2.d 剪切
 
- 3.p
+	 3.p 粘贴
 
- 4.shift + >
- 5.shift + <
+	 4.shift + >
+	 5.shift + <
 
  ##vim处理多个文件
- 1.ls;
- 2.bn    回到上次;
- 3.e   +（ 文件名） ;
- 4.wa 保存所有 ;
- 5.bd 关闭buffer缓冲区；
+	 1.ls;
+	 2.bn    回到上次;
+	 3.e   +（ 文件名） ;
+	 4.wa 保存所有 ;
+	 5.bd 关闭buffer缓冲区；
 
  ###vim中切换格式
 
-1 .“现在不用保存bn”
+	1 .“现在不用保存bn”
 
-2 . set hidden 保存
-3.set number
+	2. set hidden 删除行号
+	3. set number
 
-4.set nonumber ;
+	4. set nonumber ;
 
-5.vim  文件.vimrc
+	5.vim  文件.vimrc
 
 
 ##git 
@@ -87,15 +96,15 @@ sics
  
 # Install 下载
 
-1.sudo apt-get install git-core 
+	1.sudo apt-get install git-core 
 
-2.sudo apt-get install tig
+	2.sudo apt-get install tig
 
-3.git clone + 网页 only-read 地址 
+	3.git clone + 网页 only-read 地址 
 
-4.git pull 更新网页内容
+	4.git pull 更新网页内容
 
-查看用 tig 看加入的内容 d
+	查看用 tig 看加入的内容 d
 
 
 
