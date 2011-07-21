@@ -171,4 +171,21 @@
   unzip snipMate.zip -d ~/.vim；将压缩包解压到根目录下的.vim中
         
    即插件安装成功
-  
+ 
+
+#在当前不完整字符串后 + Ctrl _ n  可以补其字符串
+
+
+#插件的下载和安装 然后运行
+
+1.点击如（snipMate.zap）;
+
+2.将插件解压得到home根目录中的.vim中，如（unzip snipMate.zip -d ~/.vim）；
+ 
+  unzip 表示解压
+
+3.然后cd snippets 找到c.snippets ；在c.snippets 中进行文本添加和修改
+
+4.然后到任意个.c 文件中输入不完整的字符或字符串 ，按Tab 键进行补齐
+
+
