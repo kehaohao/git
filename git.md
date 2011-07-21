@@ -188,4 +188,12 @@
 
 4.然后到任意个.c 文件中输入不完整的字符或字符串 ，按Tab 键进行补齐
 
+#用来简化下载命令alias
+
+1.在home 的配置文件.bashrc 中添加 
+ 如（alias download='sudo apt-get install'）
+
+2.source .bashrc 使.bashrc生效
+
+3.如 download  fortune /cowsay ，然后fortune > cowsay 启动一个有趣的文件，哈哈！
 
