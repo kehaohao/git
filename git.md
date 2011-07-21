@@ -195,5 +195,5 @@
 
 2.source .bashrc 使.bashrc生效
 
-3.如 download  fortune /cowsay ，然后fortune > cowsay 启动一个有趣的文件，哈哈！
+3.如 download  fortune /cowsay ，然后fortune | cowsay 启动一个有趣的文件，哈哈！
 
